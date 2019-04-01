@@ -16,6 +16,9 @@ La position relative de la tondeuse X,Y,Z est décrite dans un repère local où
 Ce repère local est aussi appelé ENU (East, North, Up). 
 Le point de coordonnées 0,0 dans le repère dit local correspond au point de référence situé dans le jardin.
 
+![Repère ENU](https://en.wikipedia.org/wiki/Local_tangent_plane_coordinates#/media/File:ECEF_ENU_Longitude_Latitude_relationships.svg)
+
+
 Parès avoir défini un point de référence dans le jardin à partir de ses coordonnées exprimées en longitude 
 et latitude, l'obtention de la position relative dans ce repère local, il est nécessaire d'avoir réalisé les étapes suivantes :
 
