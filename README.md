@@ -4,8 +4,8 @@ Permet d'afficher les coordonnées ENU (East, North, Up) en mètres sur écran L
 
 ### Matériel Requis 
 * Un Arduino relié à 
-* un écran LCD 162C BA BC
-* un GPS NEO6MV2 par liaison série
+* un écran LCD 162C-BA-BC
+* un module GPS NEO6MV2 (chipset u-blox)
 
 
 Ce code pour microcontroleur Arduino permet de calculer la 
