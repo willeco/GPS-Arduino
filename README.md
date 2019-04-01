@@ -1,6 +1,6 @@
 # GPS-Arduino
 Permet d'afficher les coordonnées ENU (East, North, Up) en mètres sur écran LCD en faisant référence 
-à un point géographique identifié à partir de sa longitude et latitude. 
+à un point géographique identifié à partir de sa longitude et latitude. Ce programme permet de répondre à la question : A quelle distance en coordonnées cartésiennes je me situe par rapport à d'un point géographique de référence. 
 
 ### Matériel Requis 
 * Un Arduino relié à 
