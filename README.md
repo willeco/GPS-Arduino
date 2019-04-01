@@ -2,7 +2,7 @@
 Permet d'afficher les coordonnées ENU (East, North, Up) en mètres sur écran LCD en faisant référence 
 à un point géographique identifié à partir de sa longitude et latitude. 
 
-## Matériel Requis 
+### Matériel Requis 
 * Un Arduino relié à 
 * un écran LCD 162C BA BC
 * un GPS NEO6MV2 par liaison série
@@ -11,7 +11,7 @@ Permet d'afficher les coordonnées ENU (East, North, Up) en mètres sur écran L
 Ce code pour microcontroleur Arduino permet de calculer la 
 position relative à un point géographique à la surface de la Terre. Les coordonnées sont exprimées en mètres dans un repère local.
 
-## Définition du repère local
+### Définition du repère local
 La position relative en mètres et coordonnées cartésiennes X,Y,Z est décrite dans un repère local où
 * l'axe X est dirigé vers l'est,
 * l'axe Y est dirigé vers le nord,
@@ -22,7 +22,7 @@ Le point de coordonnées 0,0,0 dans le repère dit local correspond au point de 
 
 ![Repère ENU](ECEF_ENU_Longitude_Latitude_relationships.png)
 
-
+### Traitements
 L'obtention de la position relative dans ce repère local, nécessite  :
 * d'avoir récupéré les coordonnées GPS (longitude, latitude) du point courant à partir d'un module GPS relié 
 à l'Arduino via une connexion série à 9600 bits par seconde,
